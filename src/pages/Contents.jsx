@@ -25,7 +25,7 @@ const Contents = () => {
       </div>
     <div className="contents">
       <div className="about_top">
-     <img src="/images/development.webp" alt="Development" class="about_img"/>
+      <img src={process.env.PUBLIC_URL + "/images/development.webp"} alt="Development" className="about_img"/>
       <div className="about_ment">
         <h1>항상 노력하는 풀스텍 신입 개발자 류제욱 입니다.</h1>
         <p>이젠(EZEN) 컴퓨터 아카데미에서 6개월 동안 JAVA (서블릿, 스프링, 스프링부트) 기반의 풀스택 과정을 공부하면서 백엔드 코딩의 전반적인 과정을 수료하였습니다.</p>

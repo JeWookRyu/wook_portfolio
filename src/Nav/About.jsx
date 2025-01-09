@@ -85,7 +85,7 @@ const About = () => {
           </div>
         </Col>
         <Col md={4}>
-          <Image src="images/me.png" fluid />
+          <Image src={process.env.PUBLIC_URL + "/images/me.png"} fluid />
         </Col>
       </Row>
     </Container>

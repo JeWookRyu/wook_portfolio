@@ -10,7 +10,7 @@ export const DataProvider = ({ children }) => {
   });
 
   useEffect(()=>{
-    fetch('./data/data.json')
+    fetch(process.env.PUBLIC_URL + '/data/data.json')
     .then(res => res.json())
     .then(data => setData(data))
     .catch(error=>console.error('데이터를 가져오는데 실패했습니다.' , error));
