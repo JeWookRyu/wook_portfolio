@@ -51,13 +51,13 @@ const About = () => {
             <div className="about-grid">
               <div className="about-box">
                 <h3>
-                <span className="material-symbols-outlined">sentiment_very_satisfied</span>90
+                <span className="material-symbols-outlined">sentiment_very_satisfied</span>90%
                 </h3>
                 <p>협업능력 함께 일하는 동료들을 지치지 않고 즐겁게 일하는 협업능력을 가지고 있습니다.</p>
               </div>
               <div className="about-box">
                 <h3>
-                <span className="material-symbols-outlined">fact_check</span>75
+                <span className="material-symbols-outlined">fact_check</span>75%
                 </h3>
                 <p>
                   문서를 작성하여 새로운 것을 발견하면 모든 것을 기록하기 좋아합니다. 핸드폰 캘린더 / 엑셀 등
@@ -66,7 +66,7 @@ const About = () => {
               </div>
               <div className="about-box">
                 <h3>
-                <span className="material-symbols-outlined">schedule</span>24
+                <span className="material-symbols-outlined">schedule</span>24h
                 </h3>
                 <p>
                   계획형 인간 시간 단위로 할 일을 정리해서 일하고 시간을 효율적으로 사용합니다.
@@ -74,7 +74,7 @@ const About = () => {
               </div>
               <div className="about-box">
                 <h3>
-                <span className="material-symbols-outlined">lightbulb</span>80
+                <span className="material-symbols-outlined">lightbulb</span>80%
                 </h3>
                 <p>
                   아이디어를 일할 때 명쾌하게 여러 효율적으로 일할 수 있는 방안을 생각하며 일하며, 기한 내에 일을
