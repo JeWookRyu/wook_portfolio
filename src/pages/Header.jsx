@@ -8,7 +8,7 @@ const Header = () => {
               <FcEngineering className="d-block" />
            </div>    
            <div className="title-text">
-             <a href="#">류제욱</a>
+             <a href="https://github.com/JeWookRyu">류제욱</a>
            </div>   
        </h1>    
     </div>
