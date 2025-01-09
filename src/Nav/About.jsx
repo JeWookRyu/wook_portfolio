@@ -84,8 +84,26 @@ const About = () => {
             </div>
           </div>
         </Col>
-        <Col md={4}>
-          <Image src={process.env.PUBLIC_URL + "/images/me.png"} fluid />
+        <Col md={4} className="profile">
+          <Image src={process.env.PUBLIC_URL + "/images/me.png"} alt="profile_img"  className="profile_img" fluid />
+          <div className="profile_write">
+          <div className="profile_write_box">
+              <h3>청년 지원내역</h3>
+              <p className="date">2024.12 - 2025.12 내에 취업</p>
+              <p className="details">
+                사업주가 지원 대상 근로자 고용 후 6개월마다 <br/>2회(즉, 1년) 간 기업에 지원금 지급
+              </p>
+            </div>
+            <div className="profile_write_box">
+              <h3>과정 수료내역</h3>
+              <p className="date">2023.12 - 2024.06 김포 이젠아카데미</p>
+              <p className="details">
+                JAVA(JSP, Spring, Spring-boot), React, Node.js, Javascript, Bootstrap, HTML,
+                CSS, Git, AWS, VSCode, Figma 과정을 거쳐 수료했습니다.
+              </p>
+              <p className="more-info">수료증 확인</p>
+            </div>
+          </div>
         </Col>
       </Row>
     </Container>
