@@ -964,11 +964,14 @@ aside{
    .about_img{
       margin:0;
    }
+   .about_ment{
+      width: 100%;
+   }
    .about_ment>h1{
-      font-size:18px;
+      font-size:16px;
    }
    .about_ment>p{
-      font-size:15px;
+      font-size:14px;
    }
 
    .myself_box{
