@@ -841,6 +841,12 @@ aside{
 
 
 @media (max-width: 768px) {
+   *{
+      box-sizing: border-box; 
+      margin:0;
+      padding:0;
+   }
+   
    body {
       width: 100%;
       margin: 0;
@@ -867,7 +873,14 @@ aside{
      border: none;
      border-bottom: 1px solid rgba(0,0,0,0.2);
    }
- 
+
+   .scroll_top{
+      position: fixed;
+      background-color: rgba(0, 0, 0, 0.5);
+      right:10px;
+      bottom:10px;
+   }
+
    .title {
      display:flex;
      width:100%;
@@ -944,8 +957,12 @@ aside{
 
 
    /****about********/ 
-   .about_ment{
-      width:100%;
+   .about_top{
+      justify-content: center;
+      align-items: center;
+   }
+   .about_img{
+      margin:0;
    }
    .about_ment>h1{
       font-size:18px;
@@ -1033,8 +1050,9 @@ aside{
    }
 
    .project_content{
+      position:static;
       font-size:12px;
-      height: auto;
+      height:150px;
    }
    .project_content>p{
       font-size:10px;
@@ -1046,8 +1064,10 @@ aside{
 
     .contact_content{
       display:block;
+      font-size:18px;
     }
     .contact_box1{
+      font-size:18px;
       width: 400px;
       margin: 20px auto;
       padding: 20px;
